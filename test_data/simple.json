@@ -1,0 +1,95 @@
+[
+  {
+    "type": "pi",
+    "target": "xml",
+    "content": "version=\"1.0\" encoding=\"utf-8\""
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "elem",
+    "name": {
+      "local": "one"
+    },
+    "attrs": [
+      {
+        "name": {
+          "local": "two"
+        },
+        "value": "three"
+      }
+    ],
+    "nodes": [
+      {
+        "type": "text",
+        "content": "\n  five\n  "
+      },
+      {
+        "type": "elem",
+        "name": {
+          "local": "six"
+        },
+        "attrs": [
+          {
+            "name": {
+              "local": "seven"
+            },
+            "value": "eight"
+          }
+        ],
+        "nodes": [
+          {
+            "type": "text",
+            "content": "\n    "
+          },
+          {
+            "type": "elem",
+            "name": {
+              "local": "nine"
+            },
+            "attrs": [
+              {
+                "name": {
+                  "local": "ten"
+                },
+                "value": "eleven"
+              }
+            ],
+            "nodes": [
+              {
+                "type": "text",
+                "content": "\n      twelve\n      "
+              },
+              {
+                "type": "comment",
+                "content": " thirteen "
+              },
+              {
+                "type": "text",
+                "content": "\n    "
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": "\n    fourteen\n  "
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n  sixteen\n  "
+      },
+      {
+        "type": "comment",
+        "content": " seventeen "
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  }
+]

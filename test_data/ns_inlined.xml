@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<one xmlns="ns_outer" two="three">
+  <four xmlns="ns_outer" />
+  <five xmlns="ns_inner" six="seven" />
+</one>
